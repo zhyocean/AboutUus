@@ -1,0 +1,87 @@
+
+@media screen and (max-width: 767px) {
+    .VivaTimeline dl:before {
+        left: 90px
+    }
+    .VivaTimeline dl dt {
+        margin: 0 30px 30px
+    }
+    .VivaTimeline  .circ {
+        left: 90px
+    }
+    .VivaTimeline  .time {
+        width: 50px;
+        left: 20px
+
+    }
+    .VivaTimeline .pos-left .time {
+        padding: 10px 0;
+        margin-left: 10px;
+        text-align: left
+    }
+    .VivaTimeline .pos-left .events {
+        float: right;
+        width: 73%;
+        margin-right: 4%;
+    }
+    .VivaTimeline .pos-left .events:before {
+        left: -12px;
+        border-color: transparent #CCC transparent transparent
+    }
+    .VivaTimeline .pos-right .time {
+        padding: 10px 0;
+        margin-left: 10px;
+        text-align: left
+    }
+    .VivaTimeline .pos-right .events {
+        float: right;
+        width: 73%;
+        margin-right: 4%;
+    }
+    .VivaTimeline img{width: 100%;}
+    .top-introduce{padding-top: 25%;}
+    .top-introduce h1{
+        font-size: 1.5em;
+        width: 70%;
+    }
+    .top-introduce p{
+        font-size: 12px;
+    }
+
+    /*other about us*/
+    .Ot-content{
+        text-align: center;
+    }
+  /* life*/
+
+    .each-img1{width: 45%;}
+    .each-img2{width: 45%;}
+
+    /*foot*/
+    footer#footer address p {
+        display: flex;
+        margin: 1.5em;
+    }
+}
+@media screen and (max-width: 500px) {
+    .VivaTimeline .pos-left .events {
+        float: right;
+        width: 63%;
+        margin-right: 4%;
+    }
+    .VivaTimeline .pos-right .events {
+        float: right;
+        width: 63%;
+        margin-right: 4%;
+    }
+
+
+}
+
+@media screen and (max-width: 1018px) and (min-width: 755px){
+
+    .gravitation .gra-row-col img{
+        max-width: 65%;
+        max-height: 90px;
+    }
+}
